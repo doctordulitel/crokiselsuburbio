@@ -16,6 +16,7 @@ import { ChartsModule } from 'ng2-charts';
 // TEMPORALLLLL
 import { IncrementadorComponent } from '../components/incrementador/incrementador.component';
 import { GraficodonaComponent } from '../components/graficodona/graficodona.component';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 
 
@@ -26,7 +27,8 @@ import { GraficodonaComponent } from '../components/graficodona/graficodona.comp
         ProgressComponent,
         Graficas1Component,
         IncrementadorComponent,
-        GraficodonaComponent
+        GraficodonaComponent,
+        AccountSettingsComponent
     ],
     exports: [
         PagesComponent,

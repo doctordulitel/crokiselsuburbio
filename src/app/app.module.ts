@@ -1,7 +1,10 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+//servicios
+import { SettingsService } from './services/settings/settings.service';
 
+import { ServicesModule } from './services/services.module';
 
 // TEMPORALLLLL
 import { FormsModule } from '@angular/forms';
@@ -33,7 +36,8 @@ import { RegisterComponent } from './login/register.component';
     BrowserModule,
     APP_ROUTES,
     PagesModule,
-    FormsModule
+    FormsModule,
+    ServicesModule
   ],
   providers: [],
   bootstrap: [AppComponent]
